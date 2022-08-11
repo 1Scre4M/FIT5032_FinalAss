@@ -12,7 +12,7 @@ namespace FIT5032_FinalAss.Utils
     public class EmailSender
     {
         // Please use your API KEY here.
-        private const String API_KEY = "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";
+        private const String API_KEY = "";//According to Send Grid Privacy Policy
 
         public void Send(String toEmail, String subject, String contents)
         {
